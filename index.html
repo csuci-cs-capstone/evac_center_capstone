@@ -6,7 +6,7 @@
 </head>    
 <body>    
     <div>
-        <img class="marginauto" src="img/logo1.png" height=220 alt="Evacuation Center Logo"/>
+        <img class="marginauto" src="asset/img/logo.png" height=200 alt="Logo"/>
     </div>
     <style>
         .marginauto {
@@ -20,14 +20,21 @@
         <label><b>User Name     
         </b>    
         </label>    
-        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <input type="text" name="Username:" id="Username" placeholder="Username">    
         <br><br>    
         <label><b>Password     
         </b>    
         </label>    
-        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
-        <br><br>    
-        <input type="button" name="log" id="log" value="Sign In">
+        <input type="Password" name="Password:" id="Password" placeholder="Password">    
+        <br><br> 
+        <input type="button" name="log" id="log" value="Sign In" onclick="login()"/>
+        <script>
+            function login() {
+                window.location.href="admin/index.html";
+            }
+        </script>
+    
+    </a>
     </form>     
 </div>    
 </body>    

@@ -1,8 +1,8 @@
 body  
 {  
-    margin: 0; 
+    margin: 10; 
     padding: 0;
-    background-color:#23463f;  
+    background-color:rgb(65, 98, 183);  
     font-family: 'Arial';  
 }  
 
@@ -10,17 +10,17 @@ body
     width: 310px;
     overflow: hidden;  
     margin: auto;  
-    margin: 20 0 0 450px;  
+    margin: 20 0 0 250px;  
     padding: 40px;  
     border-radius: 15px ;  
 }  
 
 label{  
-    color: #08ffd1;  
+    color: #0ad8b2;  
     font-size: 17px;  
 }  
 
-#Uname{  
+#Username{  
     width: 300px;  
     height: 30px;  
     border: none;  
@@ -28,7 +28,7 @@ label{
     padding-left: 8px;  
 }  
 
-#Pass{  
+#Password{  
     width: 300px;  
     height: 30px;  
     border: none;  
@@ -36,21 +36,21 @@ label{
     padding-left: 8px;  
 }  
 
-#log{  
-    width: 300px;  
-    height: 30px;  
-    border: none;  
-    border-radius: 17px;  
-    padding-left: 7px;  
+#log{
+    width: 50%;
+    height: 30px;
+    right:-75px;
+    position: relative;  
+    border-radius: 17px;
     color: blue;  
 }  
 
-span{  
+span{
     color: white;  
     font-size: 17px;  
 }  
 
 a{  
-    float: right;  
+    float: center; 
     background-color: grey;  
 }  
