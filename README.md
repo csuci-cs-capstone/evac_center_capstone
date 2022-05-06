@@ -1,8 +1,7 @@
 # evac_center_capstone
 Web Database Evac Center for Capstone Project
-
+**Run application from 'evac_center_capstone/evac-center-database/read_from_db.py'**
 In this application, the user has the option to either view or add an evacuee to the connected SQL-Alchemy database.
-**Run application from 'evac_center_capstone/evac-center-database/read_from_db.py'
 
 Basic Synopsis: With more natural disasters occurring each year, residents are often displaced from their homes and relocated to evacuation centers. These evacuation centers 
 provide temporary shelter to those impacted by a calamity. A lack of standardization in record keeping often results in poor distribution of resources, creating unnecessary 
