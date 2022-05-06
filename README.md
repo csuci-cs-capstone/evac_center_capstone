@@ -9,3 +9,5 @@ Basic Synopsis: With more natural disasters occurring each year, residents are o
 provide temporary shelter to those impacted by a calamity. A lack of standardization in record keeping often results in poor distribution of resources, creating unnecessary 
 obstacles for the victims and the greater community. This capstone project will help in resolving these issues with the creation of a local web database system where the user 
 can add new evacuees and query evacuee data.
+
+Written with Python, Flask, Flask-SQLAlchemy, SQLite, Bootstrap, and CSS
